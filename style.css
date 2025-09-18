@@ -1,0 +1,103 @@
+ body{
+            background-color: rgb(25, 25, 25);
+            color: white;
+            font-family: Arial;
+            font-size:50px;
+            overflow: hidden;
+        }
+        .container {
+            height: 100%;
+            text-align: center;
+            margin-top: 50px;
+        }
+        h1 {
+            font-size: 6rem;
+            font-weight: bold;
+        }
+        .move-icon {
+            height: 150px;
+        }
+        .move-button {
+            background-color: transparent;
+            border: 3px solid white;
+            border-radius: 50%;
+            padding: 30px;
+            margin:10px;
+            cursor: pointer;
+        }
+        .result {
+            font-size: 2rem;
+            font-weight: bold;
+            margin-top: 50px ;
+        }
+        .reset, .autoplay-button {
+            background-color: white;
+            font-family:   sans-serif;
+            font-size: 1.5rem;
+            padding: 10px;
+            border: none;
+            border-radius: 20px;
+            cursor: pointer;
+        }
+        .score {
+            font-size: 3rem;
+            font-weight:bold; 
+        }
+        .hint {
+            font-size: 1.5rem;
+            font-weight: 700;
+            position: absolute;
+            top: 90%;
+        }
+
+        @media (max-width: 1024px) {
+            
+          body {
+            max-height: 100vh;
+            }
+          h1 {
+            font-size: 2rem;
+            }
+          .move-icon {
+            height: 50px;
+            }
+           .result {
+            font-size: 2rem;
+            }  
+           .score{
+            font-size: 1.5rem;
+            }
+            .reset, .autoplay-button {
+            font-size: 1rem;
+            }
+            .hint {
+                font-size: 1rem;
+                text-align: center;
+                padding: 50px;
+            }
+        }
+        @media (max-width: 670px){
+            .move-icon {
+            height: 30px;
+            }
+             .move-button {
+            padding: 20px;
+             }
+        }
+        @media (max-width: 376px) {
+             .move-icon {
+            height: 20px;
+            }
+             .move-button {
+            padding: 10px;
+             }
+             h1 {
+                font-size: 1.5rem;
+             }
+             .score{
+            font-size: 1rem;
+            }
+            .hint{
+                font-size: 0.8rem;
+            }
+        }
